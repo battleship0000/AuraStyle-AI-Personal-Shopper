@@ -1,0 +1,7 @@
+{
+  "name": "AuraStyle AI Personal Shopper",
+  "description": "A sophisticated e-commerce experience featuring a built-in AI assistant that helps you browse, compare, and discover products tailored to your lifestyle.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
