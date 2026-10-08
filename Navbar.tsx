@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { ShoppingCartIcon, MagnifyingGlassIcon, SparklesIcon, MicrophoneIcon } from '@heroicons/react/24/outline';
-import { CartItem } from '../types';
+import { CartItem } from './types';
 
 interface NavbarProps {
   cartCount: number;

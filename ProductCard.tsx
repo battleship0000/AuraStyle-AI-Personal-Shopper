@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Product } from '../types';
+import { Product } from './types';
 import { StarIcon, PlusIcon } from '@heroicons/react/24/solid';
 
 interface ProductCardProps {

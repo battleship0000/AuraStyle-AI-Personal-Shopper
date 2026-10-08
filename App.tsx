@@ -2,11 +2,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { MOCK_PRODUCTS } from './constants';
 import { Product, CartItem } from './types';
-import Navbar from './components/Navbar';
-import ProductCard from './components/ProductCard';
-import CartDrawer from './components/CartDrawer';
-import AIChatPanel from './components/AIChatPanel';
-import ProductModal from './components/ProductModal';
+import Navbar from './Navbar';
+import ProductCard from './ProductCard';
+import CartDrawer from './CartDrawer';
+import AIChatPanel from './AIChatPanel';
+import ProductModal from './ProductModal';
 import { CheckCircleIcon, SparklesIcon, XMarkIcon, MagnifyingGlassIcon } from '@heroicons/react/24/solid';
 
 const categories = ['All', 'Electronics', 'Home', 'Fashion', 'Lifestyle'];
