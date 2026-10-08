@@ -1,9 +1,9 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { SparklesIcon, XMarkIcon, PaperAirplaneIcon, MicrophoneIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/24/solid';
-import { ChatMessage, Product, CartItem } from '../types';
-import { getChatResponse, extractProductSuggestions } from '../services/geminiService';
-import { MOCK_PRODUCTS } from '../constants';
+import { ChatMessage, Product, CartItem } from './types';
+import { getChatResponse, extractProductSuggestions } from './geminiService';
+import { MOCK_PRODUCTS } from './constants';
 
 interface AIChatPanelProps {
   onSuggestProduct: (product: Product) => void;

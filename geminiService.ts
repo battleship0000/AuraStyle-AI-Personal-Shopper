@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { Product, ChatMessage, CartItem } from "../types";
-import { MOCK_PRODUCTS } from "../constants";
+import { ChatMessage, CartItem } from "./types";
+import { MOCK_PRODUCTS } from "./constants";
 
 const getSystemInstruction = (cart: CartItem[]) => `
 You are 'Aura', a world-class AI Shopping Assistant for 'AuraStyle'.

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { XMarkIcon, TrashIcon, MinusSmallIcon, PlusSmallIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
-import { CartItem } from '../types';
+import { CartItem } from './types';
 
 interface CartDrawerProps {
   isOpen: boolean;

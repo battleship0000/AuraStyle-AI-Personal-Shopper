@@ -2,7 +2,7 @@
 import React from 'react';
 import { XMarkIcon, ShoppingBagIcon, HeartIcon } from '@heroicons/react/24/outline';
 import { HeartIcon as HeartIconSolid, StarIcon } from '@heroicons/react/24/solid';
-import { Product } from '../types';
+import { Product } from './types';
 
 interface ProductModalProps {
   product: Product | null;
